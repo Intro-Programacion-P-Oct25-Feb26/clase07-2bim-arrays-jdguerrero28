@@ -19,3 +19,7 @@ public class Ubicacion {
         return sedes;
     }
 }
+/*
+La clase Ubicacion.java tiene una funcion que retorna un arreglo unidimensional
+de cadenas las cuales son los bloques a los que pertencen las cafeterias.
+*/

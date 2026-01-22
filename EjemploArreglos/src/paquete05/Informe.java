@@ -19,6 +19,11 @@ public class Informe {
         }
         return suma;
     }
+    /*
+    La funcion obtenerTotalDia va a recibir un arreglo bidimensional de los pe-
+    didos y un valor entero "3" que va a retornar la suma de los pedidos del dia
+    miercoles
+    */
     
     public static String obtenerCafeteriaMasPedidos(int [][] pedidos, String[] cafeterias){
         
@@ -36,6 +41,12 @@ public class Informe {
         }
         
         return cafeterias[indice];
+    /*
+    Dentro de la funcion obtenerCafeteriaMasPedidos se va a recibir un arreglo 
+    bidimensional de enteros y un unidimensional de cadenas que van a ser usados
+    para retornar la caferia con mas pedidos a partir de lo que se retorno en 
+    la funcion obtenerSumaSemanal.
+    */
         
     }
     
@@ -49,7 +60,12 @@ public class Informe {
         return pedidosMenores;
     
     }
-    
+    /*
+    Dentro de la funcion obtenerMenorPedidoCafeteria se va a recibir un arreglo 
+    bidimensional de enteros que va a ser usado para retornar un arreglo 
+    unidimensional con los pedidos mas bajos de cada cafeteria a partir de lo 
+    que se retorno en la funcion Operacion.obtenerMenor.
+    */    
     public static int [] obtenerMayorPedidoCafeteria(int [][] pedidos){
         int [] pedidosMayores = new int[8];
         
@@ -59,7 +75,12 @@ public class Informe {
         
         return pedidosMayores;
     }
-    
+    /*
+    Dentro de la funcion obtenerMayorPedidoCafeteria se va a recibir un arreglo 
+    bidimensional de enteros que va a ser usado para retornar un arreglo 
+    unidimensional con los pedidos mas altos de cada cafeteria a partir de lo 
+    que se retorno en la funcion Operacion.obtenerMayor.
+    */    
     
     
 }

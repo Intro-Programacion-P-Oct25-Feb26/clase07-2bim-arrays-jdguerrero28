@@ -27,3 +27,7 @@ public class Pedido {
                        
     }
 }
+/*
+La clase Pedido.java tiene una funcion que retorna un arreglo bidimensional de 
+enteros los cuales son el numero de pedidos de cada cafeteria en la semana.
+*/

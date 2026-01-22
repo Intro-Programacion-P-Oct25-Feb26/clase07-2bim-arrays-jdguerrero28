@@ -42,3 +42,11 @@ public class Principal {
     }
     
 }
+/*
+Dentro de la funcion del main se va a llamar a metodos de diferentes paquetes y 
+obtener datos de establecimientos, pedidos y ubicaciones, procesar promedios y 
+los valores maximos, y finalmente usar esa informacion para retornar un reporte 
+consolidado a partir de lo que se retorno en las funciones de los paquetes 
+Operacion, Informe y Reporte.
+
+    */

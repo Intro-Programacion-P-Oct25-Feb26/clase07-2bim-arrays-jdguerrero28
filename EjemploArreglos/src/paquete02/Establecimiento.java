@@ -21,3 +21,7 @@ public class Establecimiento {
     
     }
 }
+/*
+La clase Establecimiento.java tiene una funcion que va a retornar un arreglo de
+cadenas que tiene el nombre de las cafeterias.
+*/

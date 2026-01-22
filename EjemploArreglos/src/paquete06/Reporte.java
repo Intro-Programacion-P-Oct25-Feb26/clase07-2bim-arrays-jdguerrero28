@@ -33,3 +33,9 @@ public class Reporte {
         System.out.printf("%s\n", mensaje);
     }
 }
+/*
+Dentro de la funcion imprimirReporte se van a recibir arreglos de nombres, sedes, 
+promedios, valores minimos y maximos, junto con datos globales de ventas, para 
+ser usados para retornar un mensaje formateado que muestre el resumen detallado 
+de cada cafeteria a partir de lo que se proceso en las funciones anteriores.
+*/
