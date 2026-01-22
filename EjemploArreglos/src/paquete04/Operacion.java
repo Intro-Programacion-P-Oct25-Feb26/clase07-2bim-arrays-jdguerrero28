@@ -25,6 +25,11 @@ public class Operacion {
 
         return promedios;
     }
+    /*
+    Dentro de la funcion ObtenerPromedioSemanal se recibe como argumento un arr-
+    eglo bidimensional de enteros y se calcula los promedios de cada cafeteria
+    y se los guarda en otro arreglo unidimensional de decimales.
+    */
 
     public static int obtenerSumaTotal(int[][] pedidos) {
 
@@ -39,6 +44,10 @@ public class Operacion {
 
         return suma;
     }
+    /*
+    Dentro de la funcion obtenerSumaTotal se recibe un arreglo bidimensional de 
+    enteros y se devuelve una suma de todas las posiciones del arreglo pedidos.
+    */
 
     public static int[] obtenerSumaSemanal(int[][] pedidos) {
         int[] sumaSemanal = new int[8];
@@ -53,6 +62,11 @@ public class Operacion {
 
         return sumaSemanal;
     }
+    /*
+    En la funcion obtenerSumaSemanal se recibe un arreglo bidimensional y tambi-
+    en se crea otro arreglo unidimensional en donde se va a guardar la suma se-
+    manal de cada cafeteria.
+    */
 
     public static int obtenerMenor(int[] pedidosCafeteria) {
         int menor = pedidosCafeteria[0];
@@ -65,6 +79,10 @@ public class Operacion {
         }
         return menor;
     }
+    /*
+    La funcion obtenerMenor recibe un arreglo unidimensional donde estan los to-
+    tales de cada dia y retorna el valor menor de ellos.
+    */
 
     public static int obtenerMayor(int[] pedidosCafeteria) {
         int mayor = pedidosCafeteria[0];
@@ -77,5 +95,8 @@ public class Operacion {
         }
         return mayor;
     }
-
+    /*
+    La funcion obtenerMenor recibe un arreglo unidimensional donde estan los to-
+    tales de cada dia y retorna el valor mayor de ellos.
+    */
 }
